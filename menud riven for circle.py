@@ -1,18 +1,18 @@
 def circle():
     print ("choose circle")
     radius=int(input("enter radius\n"))
-    print("area of circle",3.14*(radius**2),"square units.")
+    print("area of circle radius of ",radius,"units is",3.14*(radius**2),"square units.")
 
 def square():
     print("choose square")    
     side=int(input("enter size of side of square\n"))
-    print("area of square ",side**2,"square units.")
+    print("area of square with side of ",side,"units is ",side**2,"square units.")
     
 def rectangle():
     print("choose rectangle")
     length=int(input("enter the length of rectangle :"))
     breadth=int(input("enter the breadth of rectangle :"))
-    print("area of rectangle ",length*breadth,"square units.")
+    print("area of rectangle withe length and breadth",length," ",breadth,"units is",length*breadth,"square units.")
 
 print("menu -\n"
       "1.circle\n"
